@@ -1,0 +1,100 @@
+body{
+    background-color: rgb(67, 160, 71);
+    color: rgba(255, 255, 255, 0.8);
+    margin: 0;
+    padding: 0;
+    }
+    h1{
+        text-transform: uppercase;
+        font-size: 28px;
+        font-family: 'fredoka one', cursive;
+    }
+    p{
+        font-family: 'PT Sans' sans-serif;
+    }
+    .help{
+        font-family: 'source Code Pro' , monospace;
+        background-color: rgba(255, 255, 255, 0.2);
+        border-bottom: rgba(255, 255, 255, 0.8)solid 1px;
+        
+    }
+    .app{
+        display: flex;
+    }
+    #instruction {
+        padding: 30px;
+        width: 50%;
+    }
+    .editor{
+        position: relative;
+        background-color:rgb(224, 224, 224) ;
+        height: 260px;
+        padding: 10PX 10PX 10px 40PX;
+        border-radius: 0PX;
+        font-family:'source Code Pro' , monospace;
+        font-size: 16PX;
+        line-height: 1.5;
+        color: rgb(119, 119, 119);
+        overflow: hidden;
+    }
+    .Line-number{
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: rgb(153, 153, 153);
+        color: rgb(213, 213, 213);
+        padding: 10px 6px;
+        height: 100%;
+        text-align: right;
+    }
+    pre{
+        margin: 0;
+    }
+    textarea{
+        height: 44px;
+        border: none;
+        outline: none;
+        resize: none;
+        overflow: auto;
+        margin-left: 26px;
+        width: 90%;
+    }
+    button {
+        background-color: rgb(209, 22, 6);
+        border: none;
+        font-family:'PT Sans' sans-serif;
+        font-size: 16px;
+        line-height: 1.5;
+        color: rgb(255, 255, 255);
+        padding: 5px 10px;
+        right: 15px;
+        bottom: 15px;
+        position: absolute;
+    }
+    #pond {
+        position: relative;
+        background-color: rgb(31, 87, 104);
+        width: 50vw;
+        height: 50vw;
+        border-bottom-left-radius: 30px;
+        overflow: hidden;
+        min-width: 300px;
+        min-height: 300px;
+    }
+    #forefront {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 95%;
+        height: 95%;
+        padding: 2.5%;
+    }
+    #background {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 95%;
+        height: 95%;
+        padding: 2.5%;
+    }
+
